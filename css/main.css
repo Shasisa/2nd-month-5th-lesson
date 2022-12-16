@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+::-moz-selection {
+  background-color: crimson;
+  color: dodgerblue;
+}
+
+::selection {
+  background-color: crimson;
+  color: dodgerblue;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  display: block;
+  margin: 15px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.example .innerExample {
+  background-color: cadetblue;
+  width: 250px;
+  height: 250px;
+}
+.example .innerExample .inner_box {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+.example .innerExample .inner_box:hover {
+  background-color: crimson;
+}
+.example .enter {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+.example .enter .enter_box {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */
